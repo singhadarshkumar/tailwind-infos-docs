@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Clone</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="navbar flex justify-between items-center p-4">
+        <div class=" flex items-center md:order-2">
+            <div class="hamburger md:hidden flex items-start justify-start flex-col pr-4 cursor-pointer">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <div class="search md:hidden">
+                <img src="./image/search.png" alt="logo" width="20"/>
+            </div>
+        </div>
+
+       <div class=" flex items-center md:order-1">
+            <div class="logo text-center px-2">
+               <img src="./image/logo.png" alt="logo" width="150"/>
+            </div>
+            <div class="-translate-x-96 w-fit md:w-auto md:translate-x-0 bg-gray-400 md:bg-red-500 md:flex items-center md:mx-4 md:space-x-3 inset-0 absolute md:relative">
+                <div>
+                    Microsoft
+                </div>
+                <div>
+                    Home
+                </div>
+                <div>
+                    Office
+                </div>
+                <div>
+                    Xbox
+                </div>
+            </div>
+       </div>
+
+        <div class="flex items-center md:order-3">
+            <div class="search hidden md:block">
+                <img src="./image/search.png" alt="logo" width="20"/>
+            </div>
+            <div class="cart text-center md:ml-3">
+                <img src="./image/cart.png" alt="logo" width="20"/>
+            </div>
+            <div class="account text-center ml-3">
+                <img src="./image/user.svg" alt="logo" width="20"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div class="left p-4 flex flex-col justify-center w-full">
+            <h1 class="text-4xl font-semibold">
+                Surface Laptop4
+            </h1>
+            <p class="mb-3">
+                Outbuild the competition and race on world-famous tracks in Forza Motorsport.                      
+            </p>
+            <button class=" bg-black text-white py-2 px-4 rounded-md w-fit">
+                Shop Now
+            </button>
+        </div>
+        <div class="right w-full">
+            <img src="./image/laptop.webp" alt="img" class="w-full">
+        </div>
+    </div>
+
+    <div class="w-full flex items-start flex-col lg:flex-row lg:justify-center my-10">
+        <div class="items flex items-center lg:flex-col m-3">
+            <img src="./image/1.webp" alt="">
+            <p class="font-medium ml-3">Choose your Microsoft 365</p>
+        </div>
+        <div class="items flex items-center lg:flex-col m-3">
+            <img src="./image/2.webp" alt="">
+            <p class="font-medium ml-3">Explore Surface devices</p>
+        </div>
+        <div class="items flex items-center lg:flex-col m-3">
+            <img src="./image/3.webp" alt="">
+            <p class="font-medium ml-3">Explore Surface devices</p>
+        </div>
+        <div class="items flex items-center lg:flex-col m-3">
+            <img src="./image/1.webp" alt="">
+            <p class="font-medium ml-3">Get Windows 11</p>
+        </div>
+    </div>
+
+</body>
+</html>
